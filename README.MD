@@ -59,13 +59,13 @@ Create a `.env` file in your root directory. You will need these for local testi
 # security (create a random string of characters with www.random.org/strings)
 JWT_SECRET=[YOURJWTSTRING]
 
-R# database (get this from Supabase: project settings > database > connection string > node.js)
+# database (get this from Supabase: project settings > database > connection string > node.js)
 DATABASE_URL=postgresql://postgres.[PROJECTID]@[REGION][.pooler.supabase.com:6543/postgres](https://.pooler.supabase.com:6543/postgres)
 
 # webhooks
-DISCORD_WEBHOOK_URL=[https://discord.com/api/webhooks/](https://discord.com/api/webhooks/)...
-DISCORD_UPDATE_WEBHOOK_URL=[https://discord.com/api/webhooks/](https://discord.com/api/webhooks/)...
-DISCORD_COMPLETION_WEBHOOK_URL=[https://discord.com/api/webhooks/](https://discord.com/api/webhooks/)...
+DISCORD_WEBHOOK_URL=https://discord.com/api/webhooks/..
+DISCORD_UPDATE_WEBHOOK_URL=https://discord.com/api/webhooks/..
+DISCORD_COMPLETION_WEBHOOK_URL=https://discord.com/api/webhooks/..
 
 ```
 
