@@ -160,8 +160,8 @@ export async function auditLog(decodedUser, action, details) {
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify({ 
                         content: completionMsg,
-                        username: "TPL Completion Updates",
-                        avatar_url: "https://thepisslist.com/list_icon.png"
+                        username: "RNG List Record Updates",
+                        avatar_url: "https://rng-list.vercel.app/list_icon.png"
                     })
                 });
             } catch (e) { console.error("Completion webhook failed!", e); }
