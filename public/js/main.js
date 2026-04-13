@@ -15,14 +15,14 @@ const router = VueRouter.createRouter({
 });
 
 router.beforeEach((to, from, next) => {
-    let title = "TPL | The Piss List";
+    let title = "RNG LIST | The RNG List";
 
-    if (to.path === '/') title = "TPL | The Piss List";
-    else if (to.path === '/leaderboard') title = "Leaderboard | TPL";
-    else if (to.path === '/roulette') title = "Roulette | TPL";
-    else if (to.path === '/admin') title = "Admin Panel | TPL";
-    else if (to.path === '/manage') title = "Management Panel | TPL";
-    else if (to.path === '/packs') title = "Packs | TPL";
+    if (to.path === '/') title = "RNG LIST | The RNG List";
+    else if (to.path === '/leaderboard') title = "Leaderboard | RNGLIST";
+    else if (to.path === '/roulette') title = "Roulette | RNGLIST";
+    else if (to.path === '/admin') title = "Admin Panel | RNGLIST";
+    else if (to.path === '/manage') title = "Management Panel | RNGLIST";
+    else if (to.path === '/packs') title = "Packs | RNGLIST";
 
     document.title = title;
     next();
