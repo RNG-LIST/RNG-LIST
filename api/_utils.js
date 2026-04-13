@@ -38,7 +38,7 @@ export async function auditLog(decodedUser, action, details) {
     if (!decodedUser || !decodedUser.username) return;
 
     const tableName = 'public.levels';
-    const pingRole = "<@&1415163645431644210>";
+    const pingRole = "<@&1491130952754139167>";
 
     if (DISCORD_UPDATE_WEBHOOK_URL) {
         let publicMsg = null;
@@ -101,8 +101,8 @@ export async function auditLog(decodedUser, action, details) {
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify({ 
                         content: publicMsg,
-                        username: "LIST UPDATES",
-                        avatar_url: "https://thepisslist.com/list_icon.png"
+                        username: "RNG List Completions Updates",
+                        avatar_url: "https://rng-list.vercel.app/list_icon.png"
                     })
                 });
             } catch (e) { console.error("Updates webhook failed!", e); }
