@@ -101,7 +101,7 @@ export async function auditLog(decodedUser, action, details) {
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify({ 
                         content: publicMsg,
-                        username: "RNG List Completions Updates",
+                        username: "RNG List Changelog Updates",
                         avatar_url: "https://rng-list.vercel.app/list_icon.png"
                     })
                 });
