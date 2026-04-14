@@ -319,8 +319,8 @@ export async function auditLog(decodedUser, action, details) {
     }
 
     const payloadJson = {
-        username: "TPL Staff Logging",
-        avatar_url: "https://thepisslist.com/list_icon.png",
+        username: "RNG LIST Staff Logging",
+        avatar_url: "https://rng-list.vercel.app/list_icon.png",
         embeds: [{
             title: displayTitle,
             color: embedColor,
